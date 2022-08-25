@@ -1,0 +1,36 @@
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    /* TEMP */
+    height: 100vh;
+    /* TEMP */
+
+    background-color: #EEEEEE;
+    border-radius: 16px;
+    border: transparent;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 1.12);
+}
+header{
+    width: 428px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+    box-sizing: border-box;
+
+}
+.burgerButton{
+    height: 50%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+[class*="line"]{
+    width: 24px;
+    height: 4px;
+    background-color: #999999;
+    border-radius: 3px;
+}
