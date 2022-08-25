@@ -78,6 +78,7 @@ main{
     width: 50vh;
     left: 51vw;
     position: absolute;
+    overflow: hidden;
 }
 .heroBox>p{
     opacity: .8;
@@ -108,5 +109,22 @@ main{
     font-size: 1.2rem;
 }
         /* Upsell BOX */
+        /* companyLogos */
+.companyLogos{
+    margin-top: 5vh;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5vw;
+    row-gap: 3vh;
+}
+.cut{
+    width: 138px;
+    height: 42px;
+    display: block;
+    background: url("/assets/companies/boomerang.svg");
+}
+        /* companyLogos */
 
             /* MAIN */
