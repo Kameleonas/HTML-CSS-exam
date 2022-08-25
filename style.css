@@ -80,10 +80,11 @@ main{
     position: absolute;
     overflow: hidden;
 }
-.heroBox>p{
+.heroBox>p,.textBox>p{
     opacity: .8;
     padding-bottom: 3vh;
     font-size: 1.3rem;
+    line-height: 1.5em;
 }
 .heroBox>h1{
     font-size: 3rem;
@@ -100,7 +101,7 @@ main{
     background-position: 85%;
     padding: 17vh 5vw 0 5vw;
 }
-.upsellBox>h1{
+.upsellBox>h1,.textBox>h1{
     font-size: 2.5rem;
     font-weight: 500;
     margin-bottom: 1.5vh;
@@ -126,5 +127,71 @@ main{
     background: url("/assets/companies/boomerang.svg");
 }
         /* companyLogos */
-
+        /* showcase */
+.showcase{
+    margin: 5vh 5vw 0 5vw;
+}
+.Hscroll{
+    height: 70vh;
+    width: fit-content;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    white-space: nowrap;
+}
+[class^="card"]{
+    width: 290px;
+    height: 400px;
+    border-radius: 16px;
+    position: relative;
+    margin: 50px;
+}
+[class^="card"] h2{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.cardOne{
+    background-image: url("/assets/ntfs/PurpleCircle.svg");
+    background-position: ;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+[class^="Info"]{
+    height: 33%;
+    width: 50%;
+    background: #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2vh 3vw 2vh 3vw;
+    box-sizing: border-box;
+}
+[class^="Info"] p{
+    opacity: .6;
+}
+.InfoL{
+    border-bottom-left-radius: 16px;
+    text-align: start;
+    
+}
+.InfoR{
+    border-bottom-right-radius: 16px;
+    text-align: end;
+    
+}
+.InfoR p:nth-of-type(1){
+    font-size: .7rem;
+}
+.orange{
+    color: rgb(255, 145, 0);
+    font-size: .7rem;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+        /* showcase */
             /* MAIN */
