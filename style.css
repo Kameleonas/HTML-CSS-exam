@@ -39,7 +39,7 @@ header{
 main{
     width: 100%;
 }
-.heroBox{
+.heroBox,.heroBox2{
     display: flex;
     flex-direction: column;
     padding: 2vh 5vw;
@@ -49,7 +49,7 @@ main{
 }
 .pink{
     color: rgba(255, 57, 152, 1);
-    font-size: .9em;
+    font-size: 1.2em;
     font-weight: 800;
     margin-top: 10vh;
     margin-bottom: 4vh;
@@ -76,19 +76,18 @@ main{
     font-size: 1.4em;
 }
         /* Sign UP Button */
-.heroBox>img{
+[class^="hero"]>img{
     width: 50vh;
     left: 51vw;
     position: absolute;
-    /* overflow: hidden; */
 }
-.heroBox>p,.textBox>p{
+[class^="hero"]>p,.textBox>p{
     opacity: .8;
     padding-bottom: 3vh;
     font-size: 1.3rem;
     line-height: 1.5em;
 }
-.heroBox>h1{
+[class^="hero"]>h1{
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 4vh;
@@ -140,6 +139,7 @@ main{
     display: flex;
     flex-direction: row;
     overflow: hidden;
+    margin-bottom: 10vh;
 }
 [class^="card"]{
     width: 290px; 
@@ -199,4 +199,57 @@ main{
     flex-direction: row;
 }
         /* showcase */
+        /* HERO BOX 2 */
+.heroBox2{
+    padding-right: 45vw;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.52);
+    margin-bottom: 10vh;
+    padding-bottom: 8vh;
+}
+.heroBox2>img{
+    top: 15vh;
+    left: 35vw;
+}
+.MT{
+    margin-top: 5vh;
+}
+        /* HERO BOX 2 */
             /* MAIN */
+        /* FOOTER */
+footer{
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: column;
+}
+.opacity5{
+    opacity: .7;
+}
+footer img,footer p{
+    margin-bottom: 4vh;
+    margin-right: 2vw;
+    font-size: 1.3rem;
+}
+footer p:last-child{
+    margin-bottom: 15vh;
+}
+.contactInfo{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 2vh;
+}
+table{
+    margin: 2rem 3rem 2rem 0;
+}
+table td{
+    padding: 1vh;
+    padding-left: 0;
+}
+table th{
+    text-align: start;
+    padding-bottom: 1vh;
+}
+
+        /* FOOTER */
